@@ -1,0 +1,35 @@
+
+:root{
+    --teal-heavy: #008B95;
+    --teal-light: #6CA3B2;
+    --teal-lightest: #99D1D5;
+    --orange: #F2953C;
+    --background-white: #f7f7f7;
+    --font-white: #fff;
+}
+
+.welcome-container{
+    position: relative;
+    background-color: var(--teal-light);
+    height: 100vh;
+}
+
+.greeting-container{
+    position: relative;
+    background-color: var(--background-white);
+    transform: translateX(-50%);
+    left: 50%;
+    top: 10%;
+    height: 30vh;
+    width: 40vw;
+    color: var(--teal-heavy);
+}
+
+// how to do "anything that starts with 'greeting-' " ?
+h2, h3, h4 {
+    text-align: center;
+}
+
+.greeting-courses-list{
+
+}

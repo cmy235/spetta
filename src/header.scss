@@ -1,4 +1,12 @@
 
 .header-title {
-    color: blue;
+    color: var(--font-white);
+}
+
+.header-outline {
+    position: relative;
+    left: 0%;
+    top: 0%;
+    background-color: var(--orange);
+    height: 18vh;
 }
