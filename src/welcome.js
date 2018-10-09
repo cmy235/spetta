@@ -7,12 +7,18 @@ class Welcome extends Component {
     return (
       <div className="welcome-container">
         <div className="greeting-container">
-          <h2>
-            Welcome to Spetta Learn
-          </h2>
-          <h4>
-            Please select a course below
-          </h4>
+          <div className="text-courses">
+            <h1 className="greeting-text">
+              welcome to Spetta learn!
+            </h1>
+            <h4 className="greeting-text">
+              please select a course below
+            </h4>
+            <h4 className="greeting-text">
+              courses will appear here!
+            </h4>
+            
+          </div>
           <div className="greeting-courses-list">
           
           </div>
